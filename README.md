@@ -53,3 +53,7 @@ For detailed blueprints on extending the Phantom scripts:
 *Maintained securely. Designed autonomously.*
 
 # aegis-spectre
+
+## Test Vectors
+
+The Spectre harness dynamically spoofs WebRTC constraints (video/audio fakes), asserting latency telemetry across overlapping and deep boundary conditions injected via the Bastion FFI layer.
