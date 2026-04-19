@@ -1,0 +1,28 @@
+# ==============================================================================
+# Anonymous/Obfuscated Standalone UI Automation Framework
+# ==============================================================================
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Playwright artifact ignores (Video recordings, network traces, crash images)
+playwright-report/
+test-results/
+.playwright/
+trace/
+auth/
+
+# Environment configurations (Never leak passwords or target URLs to Git!)
+.env
+.env.*
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+temp/
+logs/
